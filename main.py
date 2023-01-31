@@ -8,6 +8,6 @@ from src.logica.OperacionesEnteros import OperacionesEnteros
     for x in range(0, cantidadNumero):
         numero.append(int(input("ingrese valor: ")))
     print(numero)
-    resltadoMCD = self.MCDMasDosNumeros()
-print(f"el MCD de {cantidadNumero} numeros los cuales son {numero} es ")
+    resultadoMCD = self.MCDMasDosNumeros()
+print(f"el MCD de {cantidadNumero} numeros los cuales son {numero} es {resultadoMCD}")
 
