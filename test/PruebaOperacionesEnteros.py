@@ -42,3 +42,17 @@ class PruebaOperacionesEnteros(unittest.TestCase):
 
         # Assert
         self.assertEqual(resultadoEsperado, resultadoActual)
+    def test_MCDRecursivo_cuatroNumerosPositivos_retornaMCD(self):
+        # Arrange
+        numero1 = 15
+        numero2 = 20
+        numero3 = 30
+        numero4 = 4
+        resultadoEsperado = 5
+        operacion = OperacionesEnteros([numero1, numero2, numero3, numero4])
+
+        # Do
+        resultadoActual = self.operacion.MCD_recursivo(numero1, numero2)
+
+        # Assert
+        self.assertEqual(resultadoEsperado, resultadoActual)
